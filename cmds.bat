@@ -27,6 +27,7 @@ echo SHUTDOWN                       Allows proper local or remote shutdown of ma
 echo SORT                           Insensitive case filtering.
 echo SYNC                           Sync local repo to system32 (Security: Admin).
 echo TASKLIST                       Displays all currently running tasks including services.
+echo TASKKILL /F /IM [PROCESS]      Terminates a task.
 
 echo:
 echo ---- // FOLDERS \\ ----
