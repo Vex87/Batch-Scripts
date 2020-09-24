@@ -1,20 +1,20 @@
 @echo off
 
 echo:
-echo ---- // HELPER \\ ----
+echo ---- // Computer \\ ----
 echo:
-echo CD [LOCATION]                  Sets execution location.
-echo CD ..                          Sets execution location up one parent.
-echo CD \                           Sets execution location to the CL.
+echo CD [LOCATION]                  Sets directory.
+echo CD ..                          Sets directory to parent.
+echo CD \                           Sets directory to CL.
 echo CLS                            Clear CL.
-echo CMD                            Starts a new instance of the Windows command interpreter.
+echo CMD                            Starts a new instance of CL.
 echo CMDS                           Returns list of defined CL commands.
-echo DIR                            Return files of execution location.
+echo DIR                            Return files of directory.
 echo ECHO [MSG]                     Returns message.
-echo EXIT                           Closes the CL.
+echo EXIT                           Closes CL.
 echo HELP                           Returns list of CL commands.
-echo RUNADMIN                       Starts a new instance of the Windows command interpreter as an administrator.
-echo TREE                           Graphically displays the directory structure of a drive or path.
+echo RUNADMIN                       Starts a new instance of CL as an admin.
+echo TREE                           Graphically displays the directory structure of apath.
 echo TYPE                           Displays the contents of a text file.
 
 echo:
@@ -26,12 +26,12 @@ echo MD [NAME]                      Creates folder.
 echo:
 echo ---- // FILES \\ ----
 echo:
-echo COMP                           Show differences between any two files, or any two sets of files.
+echo COMP                           Show differences between any files.
 echo DEL [NAME]                     Deletes file.
-echo FC                             Show differences between any two files, or any two sets of files
+echo FC                             Show differences between any files.
 echo NEWFILE                        Creates file.
 echo NEWTXTFILE [NAME]              Creates file with text.
-echo XCOPY [FILE] [DESTINATION]     Copy all files.
+echo XCOPY [FILE] [DESTINATION]     Copy all descendants of path.
 
 echo:
 echo ---- // FOLDERS AND FILES \\ ----
@@ -44,15 +44,15 @@ echo START [FILE]                   Opens/runs folder/file.
 echo:
 echo ---- // OTHER \\ ----
 echo:
-echo CODE [. / FILE]                Open VSC/file.
-echo ENDCHROME                      Ends chromne.
-echo IPCONFIG                       Get IP address.
+echo CODE [. / FILE]                Open VSC/new file.
+echo ENDCHROME                      Closes chromne.
+echo IPCONFIG                       Returns IP address.
 echo LOGOFF                         Logs the current user out of the machine.
-echo PING                           Allows the user to test the availability of a network connection to a specified host.
+echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
 echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
-echo SORT                           A filter to sort lines in the input data stream and send them to the output data stream. This sort is always case insensitive.
+echo SORT                           Insensitive case filtering.
 echo START CHROME [URL]             Search chrome.
-echo SYNC                           Sync repo to system32. Must be ran as admin.
+echo SYNC                           Sync local repo to system32 (Security: Admin).
 echo TASKLIST                       Displays all currently running tasks including services.
 
 echo:
