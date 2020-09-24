@@ -55,7 +55,7 @@ echo START [FILE]                   Opens/runs folder/file.
 
 echo:
 echo ---- // GOOGLE \\ ----
-echo :
+echo:
 echo START CHROME [URL]             Search chrome.
 echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
 echo ENDCHROME                      Closes chromne.
