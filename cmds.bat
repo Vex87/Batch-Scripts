@@ -18,6 +18,17 @@ echo TREE                           Graphically displays the directory structure
 echo TYPE                           Displays the contents of a text file.
 
 echo:
+echo ---- // OTHER \\ ----
+echo:
+echo IPCONFIG                       Returns IP address.
+echo LOGOFF                         Logs the current user out of the machine.
+echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
+echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
+echo SORT                           Insensitive case filtering.
+echo SYNC                           Sync local repo to system32 (Security: Admin).
+echo TASKLIST                       Displays all currently running tasks including services.
+
+echo:
 echo ---- // FOLDERS \\ ----
 echo:
 echo DELFOL                         Deletes folder.
@@ -42,18 +53,20 @@ echo REN [FILE] [NAME]              Renames file.
 echo START [FILE]                   Opens/runs folder/file.
 
 echo:
-echo ---- // OTHER \\ ----
-echo:
-echo CODE [. / FILE]                Open VSC/new file.
-echo ENDCHROME                      Closes chromne.
-echo IPCONFIG                       Returns IP address.
-echo LOGOFF                         Logs the current user out of the machine.
-echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
-echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
-echo SORT                           Insensitive case filtering.
+echo ---- // GOOGLE \\ ----
+echo :
 echo START CHROME [URL]             Search chrome.
-echo SYNC                           Sync local repo to system32 (Security: Admin).
-echo TASKLIST                       Displays all currently running tasks including services.
+echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
+echo ENDCHROME                      Closes chromne.
+
+echo:
+echo ---- // VSC \\ ----
+echo:
+echo CODE .                         Open VSC.
+echo CODE [FILE]                    Opens new file.
+echo CODE -H                        Prints commands.
+echo CODE -NAME                     Opens new session.
+echo CODE -D [FILE] [FILE]          Compares two files.
 
 echo:
 echo ---- // AUTOMATIONS \\ ----
