@@ -26,7 +26,9 @@ echo MD [NAME]                      Creates folder.
 echo:
 echo ---- // FILES \\ ----
 echo:
+echo COMP                           Show differences between any two files, or any two sets of files.
 echo DEL [NAME]                     Deletes file.
+echo FC                             Show differences between any two files, or any two sets of files
 echo NEWFILE                        Creates file.
 echo NEWTXTFILE [NAME]              Creates file with text.
 echo XCOPY [FILE] [DESTINATION]     Copy all files.
@@ -46,7 +48,9 @@ echo CODE [. / FILE]                Open VSC/file.
 echo ENDCHROME                      Ends chromne.
 echo IPCONFIG                       Get IP address.
 echo LOGOFF                         Logs the current user out of the machine.
+echo PING                           Allows the user to test the availability of a network connection to a specified host.
 echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
+echo SORT                           A filter to sort lines in the input data stream and send them to the output data stream. This sort is always case insensitive.
 echo START CHROME [URL]             Search chrome.
 echo SYNC                           Sync repo to system32. Must be ran as admin.
 echo TASKLIST                       Displays all currently running tasks including services.
