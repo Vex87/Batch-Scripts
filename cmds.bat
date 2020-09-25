@@ -1,10 +1,10 @@
 @echo off
 
 echo:
-echo ---- // Computer \\ ----
+echo ---- // CL \\ ----
 echo:
-echo CD [LOCATION]                  Sets directory.
 echo CD ..                          Sets directory to parent.
+echo CD [LOCATION]                  Sets directory.
 echo CD \                           Sets directory to CL.
 echo CLS                            Clear CL.
 echo CMD                            Starts a new instance of CL.
@@ -14,22 +14,26 @@ echo ECHO [MSG]                     Returns message.
 echo EXIT                           Closes CL.
 echo HELP                           Returns list of CL commands.
 echo RUNADMIN                       Starts a new instance of CL as an admin.
-echo TREE                           Graphically displays the directory structure of apath.
-echo TYPE                           Displays the contents of a text file.
+
+echo:
+echo ---- // Computer \\ ----
+echo:
+echo IPCONFIG                       Returns IP address.
+echo LOGOFF                         Logs the current user out of the machine.
+echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
+echo SYSTEMINFO                     Displays system info
+echo TASKKILL /F /IM [PROCESS]      Terminates a task.
+echo TASKLIST                       Displays all currently running tasks including services.
 
 echo:
 echo ---- // OTHER \\ ----
 echo:
 echo HIS                            View command history
-echo IPCONFIG                       Returns IP address.
-echo LOGOFF                         Logs the current user out of the machine.
-echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
 echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
 echo SORT                           Insensitive case filtering.
 echo SYNC                           Sync local repo to system32 (Security: Admin).
-echo SYSTEMINFO                     Displays system info
-echo TASKLIST                       Displays all currently running tasks including services.
-echo TASKKILL /F /IM [PROCESS]      Terminates a task.
+echo TREE                           Graphically displays the directory structure of apath.
+echo TYPE                           Displays the contents of a text file
 
 echo:
 echo ---- // FOLDERS \\ ----
@@ -58,18 +62,18 @@ echo START [FILE]                   Opens/runs folder/file.
 echo:
 echo ---- // GOOGLE \\ ----
 echo:
+echo ENDCHROME                      Closes chromne.
 echo START CHROME [URL]             Search chrome.
 echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
-echo ENDCHROME                      Closes chromne.
 
 echo:
 echo ---- // VSC \\ ----
 echo:
-echo CODE .                         Open VSC.
-echo CODE [FILE]                    Opens new file.
+echo CODE -D [FILE] [FILE]          Compares two files.
 echo CODE -H                        Prints commands.
 echo CODE -NAME                     Opens new session.
-echo CODE -D [FILE] [FILE]          Compares two files.
+echo CODE .                         Open VSC.
+echo CODE [FILE]                    Opens new file.
 
 echo:
 echo ---- // AUTOMATIONS \\ ----
