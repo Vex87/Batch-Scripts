@@ -20,6 +20,7 @@ echo TYPE                           Displays the contents of a text file.
 echo:
 echo ---- // OTHER \\ ----
 echo:
+echo HIS                            View command history
 echo IPCONFIG                       Returns IP address.
 echo LOGOFF                         Logs the current user out of the machine.
 echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
