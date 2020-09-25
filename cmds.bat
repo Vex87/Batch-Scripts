@@ -1,7 +1,7 @@
 @echo off
 
 echo:
-echo ---- // CL \\ ----
+echo ---- // COMMAND PROMPT \\ ----
 echo:
 echo CD ..                          Sets directory to parent.
 echo CD [LOCATION]                  Sets directory.
@@ -16,7 +16,7 @@ echo HELP                           Returns list of CL commands.
 echo RUNADMIN                       Starts a new instance of CL as an admin.
 
 echo:
-echo ---- // Computer \\ ----
+echo ---- // COMPUTER \\ ----
 echo:
 echo IPCONFIG                       Returns IP address.
 echo LOGOFF                         Logs the current user out of the machine.
@@ -67,7 +67,7 @@ echo START CHROME [URL]             Search chrome.
 echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
 
 echo:
-echo ---- // VSC \\ ----
+echo ---- // VISUAL STUDIO CODE \\ ----
 echo:
 echo CODE -D [FILE] [FILE]          Compares two files.
 echo CODE -H                        Prints commands.
