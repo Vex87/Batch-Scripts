@@ -27,6 +27,7 @@ echo PING [URL]                     Allows the user to test the availability of 
 echo SHUTDOWN                       Allows proper local or remote shutdown of machine.
 echo SORT                           Insensitive case filtering.
 echo SYNC                           Sync local repo to system32 (Security: Admin).
+echo SYSTEMINFO                     Displays system info
 echo TASKLIST                       Displays all currently running tasks including services.
 echo TASKKILL /F /IM [PROCESS]      Terminates a task.
 
