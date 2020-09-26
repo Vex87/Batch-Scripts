@@ -79,4 +79,6 @@ echo CODE [FILE]                    Opens new file.
 echo:
 echo ---- // AUTOMATIONS \\ ----
 echo:
-echo GM                             Start morning sequence.
+echo GMR                            Stars morning sequence (rewards)
+echo GMM                            Stars morning sequence (email)
+echo GMS                            Stars morning sequence (school)
