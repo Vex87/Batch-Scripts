@@ -77,6 +77,11 @@ echo CODE .                         Open VSC.
 echo CODE [FILE]                    Opens new file.
 
 echo:
+echo ---- // DISCORD \\ ----
+echo:
+echo STARTDIS                       Starts Discord.
+
+echo:
 echo ---- // AUTOMATIONS \\ ----
 echo:
 echo GMR                            Stars morning sequence (rewards)
