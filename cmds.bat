@@ -63,7 +63,7 @@ echo START [FILE]                   Opens/runs folder/file.
 echo:
 echo ---- // GOOGLE \\ ----
 echo:
-echo ENDCHROME                      Closes chromne.
+echo EXITCHROME                     Closes chromne.
 echo START CHROME [URL]             Search chrome.
 echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
 
@@ -82,3 +82,8 @@ echo:
 echo GMR                            Stars morning sequence (rewards)
 echo GMM                            Stars morning sequence (email)
 echo GMS                            Stars morning sequence (school)
+echo STARTNOTE                      Starts Notepad++
+echo STARTWORD                      Starts Microsoft Word
+echo STARTANKI                      Starts Anki
+echo SSHOT                          Starts Gyazo to screenshot.
+echo SVID                           Starts Gyazo to record a GIF.
