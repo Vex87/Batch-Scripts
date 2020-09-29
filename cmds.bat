@@ -1,23 +1,21 @@
 @echo off
 
 echo:
-echo ---- // COMMAND PROMPT \\ ----
+echo ---- // COMMAND PROMPT (CMD) \\ ----
 echo:
 echo CD ..                          Sets directory to parent.
 echo CD [LOCATION]                  Sets directory.
 echo CD \                           Sets directory to CL.
 echo CLS                            Clear CL.
 echo CMD                            Starts a new instance of CL.
-echo CMDS                           Returns list of defined CL commands.
 echo DIR                            Return files of directory.
 echo ECHO [MSG]                     Returns message.
 echo EXIT                           Closes CL.
 echo NEWFILE                        Opens CL.
-echo HELP                           Returns list of CL commands.
 echo RUNADMIN                       Starts a new instance of CL as an admin.
 
 echo:
-echo ---- // COMPUTER \\ ----
+echo ---- // PC \\ ----
 echo:
 echo IPCONFIG                       Returns IP address.
 echo LOGOFF                         Logs the current user out of the machine.
@@ -37,10 +35,11 @@ echo TREE                           Graphically displays the directory structure
 echo TYPE                           Displays the contents of a text file
 
 echo:
-echo ---- // FOLDERS \\ ----
+echo ---- // FOLDERS (FOL) \\ ----
 echo:
 echo DELFOL                         Deletes folder.
 echo MD [NAME]                      Creates folder.
+echo OPEN                           Opens a folder.
 
 echo:
 echo ---- // FILES \\ ----
@@ -53,7 +52,7 @@ echo NEWTXTFILE [NAME]              Creates file with text.
 echo XCOPY [FILE] [DESTINATION]     Copy all descendants of path.
 
 echo:
-echo ---- // FOLDERS AND FILES \\ ----
+echo ---- // FOLDERS AND FILES (FAF) \\ ----
 echo:
 echo COPY [FILE] [DESTINATION]      Copy file.
 echo MOVE [FILE] [DESTINATION]      Move file.
@@ -68,7 +67,7 @@ echo START CHROME [URL]             Search chrome.
 echo START CHROME --INCOGNITO       Starts chrome in incognito mode.
 
 echo:
-echo ---- // VISUAL STUDIO CODE \\ ----
+echo ---- // VISUAL STUDIO CODE (VSC) \\ ----
 echo:
 echo CODE -D [FILE] [FILE]          Compares two files.
 echo CODE -H                        Prints commands.
@@ -77,13 +76,42 @@ echo CODE .                         Open VSC.
 echo CODE [FILE]                    Opens new file.
 
 echo:
-echo ---- // AUTOMATIONS \\ ----
+echo ---- // AUTOMATIONS (AUTO) \\ ----
 echo:
 echo GMR                            Stars morning sequence (rewards)
 echo GMM                            Stars morning sequence (email)
 echo GMS                            Stars morning sequence (school)
+
+echo:
+echo ---- // APPS \\ ----
+echo:
 echo STARTNOTE                      Starts Notepad++
+echo STARTDISC                      Starts discord.
+echo START CONTROL                  Starts the control panel.
 echo STARTWORD                      Starts Microsoft Word
 echo STARTANKI                      Starts Anki
+echo START .                        Starts the file explorer.
 echo SSHOT                          Starts Gyazo to screenshot.
 echo SVID                           Starts Gyazo to record a GIF.
+echo STARTAMONGUS                   Starts Among Us on BlueStacks.
+echo STARTHP                        Starts HP-Smart.
+echo STARTOBS                       Starts OBS-Studio
+echo STARTPAINT                     Starts Paint.net
+echo STARTSETTINGS                  Starts settings.
+echo STARTTRASH                     Starts recycling bin.
+
+echo:
+echo ---- // APPS \\ ----
+echo:
+echo CMDS                           Returns list of defined CL commands.
+echo HELP                           Returns list of CL commands.
+echo HELPCMD                        Returns list of command prompt commands.
+echo HELPPC                         Returns list of computer commands.
+echo HELPOTHER                      Returns list of other commands.
+echo HELPFOL                        Returns list of folder commands.
+echo HELPFILES                      Returns list of files commands.
+echo HELPFAF                        Returns list of folders and files  commands.
+echo HELPGOOGLE                     Returns list of google commands.
+echo HELPVSC                        Returns list of visual studio code commands.
+echo HELPAUTO                       Returns list of automation commands.
+echo HELPAPPS                       Returns list of app commands.
