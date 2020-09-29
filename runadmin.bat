@@ -1,3 +1,3 @@
 @echo off
 
-powershell -Command "Start-Process cmd -Verb RunAs"
+powershell.exe Start-Process -Verb RunAs wt
