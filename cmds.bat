@@ -76,11 +76,6 @@ echo CODE .                         Open VSC.
 echo CODE [FILE]                    Opens new file.
 
 echo:
-echo ---- // GIT \\ ----
-echo:
-
-
-echo:
 echo ---- // AUTOMATIONS (AUTO) \\ ----
 echo:
 echo GMR                            Stars morning sequence (rewards)
