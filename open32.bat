@@ -1,4 +1,3 @@
 @echo off
-
-start shell:RecycleBinFolder
-echo Opening recycling bin
+start C:\Windows\System32
+echo Opening system32 folder
