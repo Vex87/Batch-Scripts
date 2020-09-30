@@ -21,7 +21,7 @@ echo IPCONFIG                       Returns IP address.
 echo LOGOFF                         Logs the current user out of the machine.
 echo PING [URL]                     Allows the user to test the availability of a network connection to a specified host.
 echo SYSTEMINFO                     Displays system info
-echo TASKKILL /F /IM [PROCESS]      Terminates a task.
+echo ENDTASK                        Terminates a task.
 echo TASKLIST                       Displays all currently running tasks including services.
 
 echo:
@@ -74,6 +74,11 @@ echo CODE -H                        Prints commands.
 echo CODE -NAME                     Opens new session.
 echo CODE .                         Open VSC.
 echo CODE [FILE]                    Opens new file.
+
+echo:
+echo ---- // GIT \\ ----
+echo:
+
 
 echo:
 echo ---- // AUTOMATIONS (AUTO) \\ ----
