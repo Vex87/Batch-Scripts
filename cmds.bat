@@ -99,6 +99,8 @@ echo STARTOBS                       Starts OBS-Studio
 echo STARTPAINT                     Starts Paint.net
 echo STARTSETTINGS                  Starts settings.
 echo STARTTRASH                     Starts recycling bin.
+echo STARTAPPS                      Starts applications folder.
+echo STARTSTARTUP                   Starts startup folder.
 
 echo:
 echo ---- // APPS \\ ----
