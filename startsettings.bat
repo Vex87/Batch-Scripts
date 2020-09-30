@@ -1,3 +1,3 @@
 @echo off
-start /d "C:\Users\Andre\Desktop" Settings
+start /d "C:\Users\Andre\Documents\Other\Shortcuts" Settings
 echo Opening Settings
