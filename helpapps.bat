@@ -1,18 +1,15 @@
 @echo off
 
-echo STARTNOTE                      Starts Notepad++
-echo STARTDISC                      Starts discord.
-echo START CONTROL                  Starts the control panel.
-echo STARTWORD                      Starts Microsoft Word
-echo STARTANKI                      Starts Anki
-echo START .                        Starts the file explorer.
-echo SSHOT                          Starts Gyazo to screenshot.
-echo SVID                           Starts Gyazo to record a GIF.
-echo STARTAMONGUS                   Starts Among Us on BlueStacks.
-echo STARTHP                        Starts HP-Smart.
-echo STARTOBS                       Starts OBS-Studio
-echo STARTPAINT                     Starts Paint.net
-echo STARTSETTINGS                  Starts settings.
-echo STARTTRASH                     Starts recycling bin.
-echo STARTAPPS                      Starts applications folder.
-echo STARTSTARTUP                   Starts startup folder.
+echo CMDS                           Returns list of defined CL commands.
+echo HELP                           Returns list of CL commands.
+echo HELPAPPS                       Returns list of app commands.
+echo HELPAUTO                       Returns list of automation commands.
+echo HELPCMD                        Returns list of command prompt commands.
+echo HELPFAF                        Returns list of folders and files commands.
+echo HELPFILES                      Returns list of files commands.
+echo HELPFOL                        Returns list of folder commands.
+echo HELPGOOGLE                     Returns list of google commands.
+echo HELPOTHER                      Returns list of other commands.
+echo HELPPC                         Returns list of computer commands.
+echo HELPSFILE                      Returns list of specific files.
+echo HELPVSC                        Returns list of visual studio code commands.

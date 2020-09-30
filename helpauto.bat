@@ -1,5 +1,5 @@
 @echo off
 
-echo GMR                            Stars morning sequence (rewards)
-echo GMM                            Stars morning sequence (email)
-echo GMS                            Stars morning sequence (school)
+echo GMM                            Stars morning sequence (email).
+echo GMR                            Stars morning sequence (rewards).
+echo GMS                            Stars morning sequence (school).
