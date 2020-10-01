@@ -1,7 +1,7 @@
 @echo off
 
 echo:
-echo ---- // COMMAND PROMPT (CMD) \\ ----
+echo ---- // COMMAND PROMPT (CL) \\ ----
 echo:
 echo CD ..                          Sets directory to parent.
 echo CD \                           Sets directory to CL.
@@ -113,13 +113,14 @@ echo OPENSTARTUP                    Opens startup folder.
 echo OPENTRASH                      Opens recycling bin.
 
 echo:
-echo ---- // APPS \\ ----
+echo ---- // CMDS \\ ----
 echo:
 echo CMDS                           Returns list of defined CL commands.
 echo HELP                           Returns list of CL commands.
 echo HELPAPPS                       Returns list of app commands.
 echo HELPAUTO                       Returns list of automation commands.
-echo HELPCMD                        Returns list of command prompt commands.
+echo HELPCL                         Returns list of command prompt commands.
+echo HELPCMDS                       Returns list of help commands.
 echo HELPFAF                        Returns list of folders and files commands.
 echo HELPFILES                      Returns list of files commands.
 echo HELPFOL                        Returns list of folder commands.

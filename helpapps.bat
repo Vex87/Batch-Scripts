@@ -1,15 +1,15 @@
 @echo off
 
-echo CMDS                           Returns list of defined CL commands.
-echo HELP                           Returns list of CL commands.
-echo HELPAPPS                       Returns list of app commands.
-echo HELPAUTO                       Returns list of automation commands.
-echo HELPCMD                        Returns list of command prompt commands.
-echo HELPFAF                        Returns list of folders and files commands.
-echo HELPFILES                      Returns list of files commands.
-echo HELPFOL                        Returns list of folder commands.
-echo HELPGOOGLE                     Returns list of google commands.
-echo HELPOTHER                      Returns list of other commands.
-echo HELPPC                         Returns list of computer commands.
-echo HELPSFILE                      Returns list of specific files.
-echo HELPVSC                        Returns list of visual studio code commands.
+echo SSHOT                          Starts Gyazo to screenshot.
+echo START .                        Starts the file explorer.
+echo START CONTROL                  Starts the control panel.
+echo STARTAMONGUS                   Starts Among Us on BlueStacks.
+echo STARTANKI                      Starts Anki.
+echo STARTDISC                      Starts discord.
+echo STARTHP                        Starts HP-Smart.
+echo STARTNOTE                      Starts Notepad++.
+echo STARTOBS                       Starts OBS-Studio.
+echo STARTPAINT                     Starts Paint.net
+echo STARTSETTINGS                  Starts settings.
+echo STARTWORD                      Starts Microsoft Word.
+echo SVID                           Starts Gyazo to record a GIF.
