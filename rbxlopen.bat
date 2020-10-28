@@ -1,18 +1,22 @@
 @echo off
 
-cd C:\Users\Andre\Documents\GitHub
+cd C:\Users\Andre\Documents\Projects\Roblox
 dir
 set /p NewProjectName=Enter the project name: 
 
-powershell write-host -fore Green Opening project in Visual Studio Code
+echo Opening project in Visual Studio Code
 call code %NewProjectName%
 cd %NewProjectName%
+powershell write-host -fore Green VSC successfully opened
 
-powershell write-host -fore Green Opening project in Roblox Studio
+echo Opening project in Roblox Studio
 call start NewProject.rbxl
+powershell write-host -fore Green Project successfully opened in Roblox Studio
 
-powershell write-host -fore Green Pulling Changes from Repository
+echo Pulling changes from repository
 call git pull
+powershell write-host -fore Green Changes successfully pulled
 
-powershell write-host -fore Green Starting Rojo in Visual Studio Code
+echo Starting Rojo in Visual Studio Code
 call rojo serve
+powershell write-host -fore Green Rojo started
