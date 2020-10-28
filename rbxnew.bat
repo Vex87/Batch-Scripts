@@ -1,16 +1,14 @@
 @echo off 
 
-set /p NewProjectName=Enter the project name: 
-
 echo Cloning template
 cd C:\Users\Andre\Documents\Projects\Roblox
-mkdir %NewProjectName%
+mkdir %~1
 xcopy C:\Users\Andre\Documents\Projects\Roblox %.template% /E
 powershell write-host -fore Green Template created
 
 echo Opening project in Visual Studio Code
-call code %NewProjectName%
-cd %NewProjectName%
+call code %~1
+cd %~1
 powershell write-host -fore Green VSC successfully opened
 
 echo Opening project in Roblox Studio

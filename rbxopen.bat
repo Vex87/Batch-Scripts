@@ -1,12 +1,10 @@
 @echo off
 
 cd C:\Users\Andre\Documents\Projects\Roblox
-dir
-set /p NewProjectName=Enter the project name: 
 
 echo Opening project in Visual Studio Code
-call code %NewProjectName%
-cd %NewProjectName%
+call code %~1
+cd %~1
 powershell write-host -fore Green VSC successfully opened
 
 echo Opening project in Roblox Studio
