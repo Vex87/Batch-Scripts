@@ -8,7 +8,7 @@ cd %~1
 powershell write-host -fore Green VSC successfully opened
 
 echo Opening project in Roblox Studio
-call start Place.rbxl
+call start Place.rbxlx
 powershell write-host -fore Green Project successfully opened in Roblox Studio
 
 echo Starting Rojo in Visual Studio Code
