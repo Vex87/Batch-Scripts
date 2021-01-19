@@ -1,3 +1,3 @@
 @echo off
-powershell.exe Start-Process -Verb RunAs wt
+powershell -Command "Start-Process cmd -Verb RunAs"
 echo Opening Windows Terminal as administrator
