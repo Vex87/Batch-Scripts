@@ -7,4 +7,4 @@ echo Opening StudentVue in Google
 start chrome https://apclassroom.collegeboard.org/6/assessments/assignments
 start chrome https://www.pearsonmylabandmastering.com/northamerica/masteringbiology/
 start chrome https://cpschools.schoology.com/home
-start chrome https://synergyportal.cpschools.com/PXP2_Login.aspx
+start chrome https://va-cps-psv.edupoint.com/PXP2_Login_Student.aspx?regenerateSessionId=True
